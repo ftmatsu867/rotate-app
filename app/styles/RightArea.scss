@@ -1,0 +1,20 @@
+.rightArea {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    p{
+        user-select: none;
+    }
+    .arrow {
+        cursor: pointer;
+    }
+}
